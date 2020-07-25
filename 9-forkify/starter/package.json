@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "start": "webpack --mode development --open"
+    "start": "webpack-dev-server --mode development --open"
   },
   "author": "Rich Ekelman",
   "license": "ISC",
@@ -16,8 +16,6 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "babel-polyfill": "^6.26.0",
-    "jquery": "^3.5.1",
-    "live-server": "^1.2.1"
+
   }
 }
